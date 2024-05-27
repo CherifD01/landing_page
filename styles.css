@@ -6,42 +6,67 @@ body{
     overflow: hidden;
 }
 
-.container-head{
-    display: flex;
-    justify-content: center;
-}
 
 .header{
-    border: 1px solid #ddd;
-    background: #1F2937;    
-    padding: 8px;
     display: flex;
-    flex-direction:  column;
-}
-/*
-.left-head{
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0px 100px;
 }
 
-.right-head{
+.header .left-header{
     display: flex;
-    flex-direction: column;
-    
-}
- */
-.logo{
-    color:#f9faf8c7;
+    color: #f9faf8;
     font-size: 24px;
 }
 
-ul{
-    list-style-type: none;
+.header .right-header{
     display: flex;
+    gap: 8px;
+}
 
+.hero-text{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 138px;
+     padding-bottom: 175px; 
+    
+
+}
+.hero-text > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-text{
+   font-size: 48px;
+   color: #f9faf8;
+   font-weight: bold; 
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img{
+    border-radius: 15px /* Use this to make rounded corners */;
+    width: 1000px;
+    height: 200px;
 }
 
 a{
     text-decoration: none;
-    color: #e5e7eb97
+    color:#e5e7eb;
 }
+
+button{
+    background: #3882f6;
+    border-color: #3882f6;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
+
+li{list-style-type: none;}
